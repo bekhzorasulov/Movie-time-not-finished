@@ -11,3 +11,114 @@ a {
 ul li {
   list-style: none;
 }
+
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/poppins-v21-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/poppins-v21-latin-700.woff2") format("woff2");
+}
+
+body {
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+section a {
+  font-size: 20px;
+  font-weight: 400;
+  color: darkgoldenrod;
+  display: inline-block;
+  padding: 8px 12px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+/* section a:hover {
+  background-color: whitesmoke;
+  color: aqua;
+}
+
+section a:visited {
+    color: aqua;
+} */
+
+/* hover, focus, active, visited ishlamadi */
+
+ul li a {
+  font-size: 20px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+#menu {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/menu.jpg);
+  color: aquamarine;
+}
+
+#comedy {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/comedy.jpg);
+  color: black;
+}
+
+#cartoons {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/cartoons.png);
+}
+
+#horrors {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/horror.jpg);
+  color: #ffffff;
+}
+
+#detectives {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/detective.jpg);
+}
+
+#dramas {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/suits-cast.webp);
+  color: #ffffff;
+}
