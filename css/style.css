@@ -72,16 +72,14 @@ section a {
   margin-top: 10px;
 }
 
-/* section a:hover {
+section a:hover {
   background-color: whitesmoke;
   color: aqua;
 }
 
 section a:visited {
-    color: aqua;
-} */
-
-/* hover, focus, active, visited ishlamadi */
+  background-color: red;
+}
 
 ul li a {
   font-size: 20px;
